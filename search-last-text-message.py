@@ -17,9 +17,9 @@ from selenium  import webdriver
 driver = webdriver.Chrome("E:\chromedriver.exe");
 driver.get("localhost:5000");
 time.sleep(2);
-driver.find_element_by_name('username').send_keys('jamalbutt1232');
+driver.find_element_by_name('username').send_keys('XYZ');
 time.sleep(2);
-driver.find_element_by_name('password').send_keys('jamalbutt1232');
+driver.find_element_by_name('password').send_keys('XYZ');
 time.sleep(1);
 loginButton = driver.find_element_by_tag_name('button');
 loginButton.click();
