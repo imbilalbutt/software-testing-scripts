@@ -31,15 +31,15 @@ time.sleep(2);
 display_name = driver.find_element_by_name('display-name');
 display_name.clear();
 time.sleep(1);
-driver.find_element_by_name('display-name').send_keys('samalbutt1232');
+driver.find_element_by_name('display-name').send_keys('ABC');
 time.sleep(1);
 first_name = driver.find_element_by_name('first-name');
 first_name.clear();
-driver.find_element_by_name('first-name').send_keys('samal');
+driver.find_element_by_name('first-name').send_keys('DCO');
 time.sleep(1);
 last_name = driver.find_element_by_name('last-name');
 last_name.clear();
-driver.find_element_by_name('last-name').send_keys('sutt');
+driver.find_element_by_name('last-name').send_keys('TRU');
 time.sleep(1);
 
 
